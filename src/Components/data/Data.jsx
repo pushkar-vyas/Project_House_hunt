@@ -183,6 +183,7 @@ export const location = [
 ]
 export const team = [
   {
+    id:1,
     list: "50",
     cover: img1,
     address: "Vijay Nager, Indore",
@@ -190,6 +191,7 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
+    id:2,
     list: "70",
     cover: img1,
     address: "Sant Nager, Ujjain",
@@ -197,6 +199,7 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
+    id:3,
     list: "80",
     cover: img1,
     address: "Sonkatch, Dewas",
@@ -204,6 +207,7 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
+    id:4,
     list: "51",
     cover: img1,
     address: "2272 Dewas",
@@ -211,6 +215,7 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
+    id:5,
     list: "42",
     cover: img1,
     address: "272A Vikaram Nager",
@@ -218,6 +223,7 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
+    id:6,
     list: "38",
     cover: img1,
     address: "M.R 8 Ujjain",

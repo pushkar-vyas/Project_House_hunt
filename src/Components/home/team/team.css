@@ -70,3 +70,72 @@
   color: white;
   font-size: 20px;
 }
+
+.fbutton{
+  padding-top: 25px;
+  font-size: 25px;
+  padding-bottom: 0px;
+  cursor: pointer;
+  /* color:blueviolet; */
+  /* background-color: rgb(12, 240, 31); */
+  margin-left: 470px;
+  /* border-radius: 50px; */
+  /* text-align: center; */
+  
+}
+
+.fbutton1{
+  /* text-align: center; */
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  color: #27ae60;
+  /* padding-right: 10px; */
+  /* font-size: 25px; */
+  padding-bottom: 20px;
+  /* padding-right: 5px; */
+  /* margin-top: -300px; */
+  /* margin-bottom: 30px; */
+  /* background:white; */
+  background: #ffffff;
+  /* border-radius: 6px; */
+  border: 1px solid #27ae60;
+  text-align: start;
+  
+ 
+}
+
+.fbutton1:hover {
+  /* scale: 5px; */
+  border: none;
+  background:linear-gradient(45deg,#27ae60,#fd5f03);
+  color:black;
+  /* font-size: 27.5px; */
+  font-weight: bolder;
+  
+}
+
+.box:hover{
+  /* border: 2px solid #fd5f03; */
+  /* background-image: linear-gradient(45deg,#27ae60,#fd5f03); */
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+
+@media(max-width:768px){
+  /* .box{
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+  } */
+
+  .fbutton{
+    font-size: smaller;
+    margin-left: 5rem;
+    /* height: 15px;
+    width: 15px; */
+  }
+}
