@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2024 HOUSE HUNT. Designd By P.</span>
+        <span>© 2024 HOUSE HUNT. Designd By Pushkar Vyas.</span>
       </div>
     </>
   )
