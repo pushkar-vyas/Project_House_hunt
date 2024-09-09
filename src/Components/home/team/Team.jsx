@@ -33,7 +33,7 @@ const Team = () => {
         <div className='container'>
           <Heading title='Our Featured Agents' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
 
-          <div className='content mtop grid3 sm: grid:2 '>
+          <div className='content mt-[50px] ml-[100px] mr-[100px] grid3 sm: flex flex-col ml-[80px] '>
             {team.slice(startIndex, endIndex).map((val, index) => (
               <div className='box' key={index}>
                 <button className='btn3'>{val.list} Listings</button>
@@ -51,8 +51,8 @@ const Team = () => {
                       <li key={index}>{icon}</li>
                     ))}
                   </ul>
-                  <div className='button flex'>
-                    <button>
+                  <div className='button-flex'>
+                    <button className="mess">
                       <i className='fa fa-envelope'></i>
                       Message
                     </button>

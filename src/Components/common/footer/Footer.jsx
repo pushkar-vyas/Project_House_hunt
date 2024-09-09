@@ -25,15 +25,15 @@ const Footer = () => {
               <h2>Do You Need Help With Anything?</h2>
               <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
 
-              <div className='input flex'>
+              <div className='input '>
                 <input type='text' placeholder='Email Address' />
-                <button>Subscribe</button>
+                <button className="bg-green-800 p-[15px] ml-[3px] md:flex-none">Subscribe</button>
               </div>
             </div>
           </div>
 
-          {footer.map((val) => (
-            <div className='box'>
+          {footer.map((val ,index) => (
+            <div className='box' key={index}>
               <h3>{val.title}</h3>
               <ul>
                 {val.text.map((items) => (

@@ -1,0 +1,37 @@
+.login_main{
+    height: auto;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.login_main h2{
+    text-align: center;
+    margin-left: 95px;
+}
+.login_main button{
+    background-color: green;
+    width: 365px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+@media(max-width:768px){
+    .login_main{
+        margin-left: 0px;
+    }
+
+    .login_main h2{
+        margin-left: 30px;
+    }
+
+    .login_main button{
+        /* width: 390px; */
+        margin: 0px;
+        margin-top: 30px;
+
+    }
+}

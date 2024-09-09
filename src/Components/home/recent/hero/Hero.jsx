@@ -1,5 +1,5 @@
 import React from "react"
-import Heading from "../../common/Heading"
+import Heading from "../../../common/Heading"
 import "./hero.css"
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='container'>
           <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
 
-          <form className='flex'>
+          <form className='flexx'>
             <div className='box'>
               <span>City/Street</span>
               <input type='text' placeholder='Location' />
@@ -25,7 +25,7 @@ const Hero = () => {
             <div className='box'>
               <h4>Advance Filter</h4>
             </div>
-            <button className='btn1'>
+            <button className='btnj'>
               <i className='fa fa-search'></i>
             </button>
           </form>

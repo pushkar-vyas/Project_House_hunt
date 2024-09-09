@@ -18,10 +18,12 @@
   opacity: 0.8;
 }
 form {
+  width: 80%;
   background-color: #fff;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 0 20px;
+  margin-left: 12%;
 }
 form input {
   padding: 10px;
@@ -48,6 +50,12 @@ form .box:nth-child(1) {
 form h4 {
   font-weight: 500;
 }
+
+.btnj{
+  background-color: green;
+  padding: 10px;
+  padding-left: 20px;
+}
 @media screen and (max-width: 800px) {
   .hero .container {
     padding-top: 30%;
@@ -55,11 +63,58 @@ form h4 {
   form {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 12%;
+
   }
   form .box {
     border-left: none;
+    display: flex;
+    flex-wrap:wrap;
+    width: 50%;
+    height: 50%;
+    margin-top: 0px;
   }
   form input {
     width: 100%;
+    
+  }
+
+  form h4 {
+    /* font-weight: 100; */
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    font-size: 14px;
+    color: grey;
+    margin-top: 22px;
+    border-radius: 5px;
+    height: 48px;
+    width: 190px;
+  }
+
+  /* .flexx{
+    margin-bottom: 100px;
+  } */
+
+  .flexx i{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-left:8rem; */
+    width: 90%;
+    /* margin-left: 50%; */
+    padding: 1px;
+
+    padding-left: 100px;
+    padding-right: 150px;
+    /* padding-bottom: 10px; */
+    /* height: 40px; */
+    /* background-color: green; */
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    /* padding-top: 11px; */
+    /* margin-bottom: 20px; */
+    /* margin-bottom: -10px; */
+
   }
 }

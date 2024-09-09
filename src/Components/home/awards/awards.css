@@ -2,10 +2,15 @@
   background-color: #122947;
   color: #fff;
   text-align: center;
+
+  
 }
 .awards .heading {
   display: flex;
   flex-direction: column-reverse;
+  margin-left: 280px;
+  margin-right: 305px;
+  
 }
 .awards .heading p {
   color: #27ae60;
@@ -31,4 +36,15 @@
 }
 .awards p {
   color: grey;
+}
+
+@media(max-width:768px){
+  .awards .heading{
+    margin-left: 0px;
+    margin-top: -25px;
+  }
+  .awards .heading h1 {
+    font-size: 15px;
+  }
+
 }

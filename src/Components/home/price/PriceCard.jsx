@@ -4,7 +4,7 @@ import { price } from "../../data/Data"
 const PriceCard = () => {
   return (
     <>
-      <div className='content flex mtop'>
+      <div className='content flex mt-[30px] ml-[100px] mr-[100px]'>
         {price.map((item, index) => (
           <div className='box shadow' key={index}>
             <div className='topbtn'>

@@ -1,6 +1,6 @@
 import React from "react"
-import Heading from "../../common/Heading"
-import { location } from "../../data/Data"
+import Heading from "../../../common/Heading"
+import { location } from "../../../data/Data"
 import "./style.css"
 
 const Location = () => {
@@ -10,7 +10,7 @@ const Location = () => {
         <div className='container'>
           <Heading title='Explore By Location' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
 
-          <div className='content grid3 mtop'>
+          <div className='content grid3 mt-[30px] ml-[100px] mr-[100px] md:grid grid-2 ml-[20px] mr-[25px]'>
             {location.map((item, index) => (
               <div className='box' key={index}>
                 <img src={item.cover} alt='' />

@@ -7,10 +7,10 @@ const Awards = () => {
   return (
     <>
       <section className='awards padding'>
-        <div className='container'>
+        <div className='container '>
           <Heading title='Over 1,24,000+ Happy User Bieng With Us Still They Love Our Services' subtitle='Our Awards' />
 
-          <div className='content grid4 mtop'>
+          <div className='content grid4 mt-[12px] ml-[120px] mr-[120px]'>
             {awards.map((val, index) => (
               <div className='box' key={index}>
                 <div className='icon'>
